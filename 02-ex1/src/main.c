@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h> // This is a library inclusion
 
-int main()
+int main() // main() is the function. The term main has a special meaning in C. Every program should only have ONE main.
 {
 	printf("my name is danny\n");
 	return 0;
