@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 int main() {
-  int height = 4;
-  int width = 12;
-  int perimeter = 0;
-  int area = 0;
+  float height = 4.5;
+  float width = 12.8;
+  float perimeter = 0.0;
+  float area = 0.0;
 
   perimeter = 2 * (height + width);
   area = height * width;
 
-  printf("Perimeter is %i meters\n", perimeter);
-  printf("Area is %i meters squared\n", area);
+  printf("Perimeter of a rectangle with a height of %f and a width of %f is %f meters\n", height, width, perimeter);
+  printf("Area is %f meters squared\n", area);
 
   return 0;
 }
