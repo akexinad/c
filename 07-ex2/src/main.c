@@ -10,8 +10,8 @@ int main() {
   perimeter = 2 * (height + width);
   area = height * width;
 
-  printf("Perimeter of a rectangle with a height of %f and a width of %f is %f meters\n", height, width, perimeter);
-  printf("Area is %f meters squared\n", area);
+  printf("Perimeter of a rectangle with a height of %f.2 and a width of %f.2 is %f.2 meters\n", height, width, perimeter);
+  printf("Area is %f.2 meters squared\n", area);
 
   return 0;
 }
