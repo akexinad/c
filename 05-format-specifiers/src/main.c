@@ -29,5 +29,8 @@ int main()
   int t = 'a';
   printf("%c \n", t); // CHAR
 
+  int d = "hello world";
+  printf("%s \n", d); // STRING
+
   return 0;
 }
